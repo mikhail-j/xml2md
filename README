@@ -1,2 +1,4 @@
 xml2md
-Parse .xml files to .txt (markdown) using Java.
+Convert docbook (.xml) to Markdown (.txt file) using Java.
+
+<title>Chapter 1</title> ====> ##Chapter 1##
