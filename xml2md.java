@@ -52,6 +52,7 @@ public class xml2md
 						edited[a] = edited[a].replaceAll("<[^>]*>", "");
 						edited[a] = edited[a].replaceAll("&lt;", "<");
 						edited[a] = edited[a].replaceAll("&gt;", ">");
+						edited[a] = edited[a].replaceAll("_", "\\\\_");
 						write.append(edited[a] + System.getProperty("line.separator"));
 					}
 				read.close();
